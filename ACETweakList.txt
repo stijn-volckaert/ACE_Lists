@@ -1,0 +1,202 @@
+###################################################################################################################
+# ACE v1.3+ Tweak definition lists                                                                                #
+###################################################################################################################
+# Format:                                                                                                         #
+# <List identifier>                                                                                               #
+# <Rule type><TAB>+<Class Name><TAB>+<Property Name><TAB>+<Condition><TAB>+<Property Type><TAB>+<Property Value>  #
+# <Signature>                                                                                                     #
+#                                                                                                                 #
+# Guidelines:                                                                                                     #
+# > Think of this file as a set of firewall rules applied to tweaks. ACE decides whether a tweak should be        #
+# allowed by evaluating rules one by one until it finds a rule that applies to the tweak.                         #
+# > Values must be separated by one or more tabs (hence: <TAB>+)                                                  #
+# > <Rule Type> must be ALLOW or DENY                                                                             #
+# > <Class Name> must be the full class pathname (e.g., BotPack.ImpactHammer)                                     #
+# > <Property Name> must be the full property pathname (e.g., Engine.Weapon.Shakemag)                             #
+# > <Condition> must be EQ, NE, LT, LE, GE, or GT                                                                 #
+# > EQ = equal, NE = not equal, LT = less than, LE = less than or equal to, GE = greater than or equal to,        #
+# GT = greater than                                                                                               #
+# > <Property Type> must be STRING, FLOAT, INT, BOOL.                                                             #
+# Note: STRING and BOOL properties only support the EQ and NE conditions                                          #
+# > Anything behind a '#' char is ignored                                                                         #
+# > Asterisks (*) can be used to match class/property names or property values									  #
+# > All strings are case-insensitive                                                                              #
+#                                                                                                                 #
+# Example:                                                                                                        #
+# ALLOW	Botpack.UT_BloodBurst	Engine.Actor.bHidden	EQ	True								                  #
+#                                                                                                                 #
+# Explanation:                                                                                                    #
+# The bHidden property on Botpack.UT_BloodBurst objects is normally set to false. It cannot be                    #
+# changed in the ini. Any changes to this property therefore qualify as tweaks. This rule allows                  #
+# players to set Botpack.UT_BloodBurst.bHidden to true.                                                           #
+###################################################################################################################
+
+ACE_20210908_A
+
+##################################################################################################################################################################################
+# Type		Class Name									Property Name									Condition		Property Type		Property Value                       #
+##################################################################################################################################################################################
+
+# Liltweaker Chunk Tweaks
+ALLOW		Botpack.UT_BossArm							Engine.Actor.LifeSpan							EQ				FLOAT				*
+ALLOW		Botpack.UT_BossArm							Engine.Actor.DrawScale							EQ				FLOAT				*
+ALLOW		Botpack.UT_BossArm							Engine.Actor.DrawType							EQ				INT					*
+ALLOW		Botpack.UT_BossThigh						Engine.Actor.LifeSpan							EQ				FLOAT				*
+ALLOW		Botpack.UT_BossThigh						Engine.Actor.DrawScale							EQ				FLOAT				*
+ALLOW		Botpack.UT_BossThigh						Engine.Actor.DrawType							EQ				INT					*
+ALLOW		Botpack.UT_FemaleArm						Engine.Actor.LifeSpan							EQ				FLOAT				*
+ALLOW		Botpack.UT_FemaleArm						Engine.Actor.DrawScale							EQ				FLOAT				*
+ALLOW		Botpack.UT_FemaleArm						Engine.Actor.DrawType							EQ				INT					*
+ALLOW		Botpack.UT_FemaleFoot						Engine.Actor.LifeSpan							EQ				FLOAT				*
+ALLOW		Botpack.UT_FemaleFoot						Engine.Actor.DrawScale							EQ				FLOAT				*
+ALLOW		Botpack.UT_FemaleFoot						Engine.Actor.DrawType							EQ				INT					*
+ALLOW		Botpack.UT_FemaleTorso						Engine.Actor.LifeSpan							EQ				FLOAT				*
+ALLOW		Botpack.UT_FemaleTorso						Engine.Actor.DrawScale							EQ				FLOAT				*
+ALLOW		Botpack.UT_FemaleTorso						Engine.Actor.DrawType							EQ				INT					*
+ALLOW		Botpack.UT_MaleArm							Engine.Actor.LifeSpan							EQ				FLOAT				*
+ALLOW		Botpack.UT_MaleArm							Engine.Actor.DrawScale							EQ				FLOAT				*
+ALLOW		Botpack.UT_MaleArm							Engine.Actor.DrawType							EQ				INT					*
+ALLOW		Botpack.UT_MaleFoot							Engine.Actor.LifeSpan							EQ				FLOAT				*
+ALLOW		Botpack.UT_MaleFoot							Engine.Actor.DrawScale							EQ				FLOAT				*
+ALLOW		Botpack.UT_MaleFoot							Engine.Actor.DrawType							EQ				INT					*
+ALLOW		Botpack.UT_MaleTorso						Engine.Actor.LifeSpan							EQ				FLOAT				*
+ALLOW		Botpack.UT_MaleTorso						Engine.Actor.DrawScale							EQ				FLOAT				*
+ALLOW		Botpack.UT_MaleTorso						Engine.Actor.DrawType							EQ				INT					*
+ALLOW		Botpack.UT_Thigh							Engine.Actor.LifeSpan							EQ				FLOAT				*
+ALLOW		Botpack.UT_Thigh							Engine.Actor.DrawScale							EQ				FLOAT				*
+ALLOW		Botpack.UT_Thigh							Engine.Actor.DrawType							EQ				INT					*
+ALLOW		Botpack.UT_BossHead							Engine.Actor.LifeSpan							EQ				FLOAT				*
+ALLOW		Botpack.UT_BossHead							Engine.Actor.DrawScale							EQ				FLOAT				*
+ALLOW		Botpack.UT_BossHead							Engine.Actor.DrawType							EQ				INT					*
+ALLOW		Botpack.UT_HeadFemale						Engine.Actor.LifeSpan							EQ				FLOAT				*
+ALLOW		Botpack.UT_HeadFemale						Engine.Actor.DrawScale							EQ				FLOAT				*
+ALLOW		Botpack.UT_HeadFemale						Engine.Actor.DrawType							EQ				INT					*
+ALLOW		Botpack.UT_HeadMale							Engine.Actor.LifeSpan							EQ				FLOAT				*
+ALLOW		Botpack.UT_HeadMale							Engine.Actor.DrawScale							EQ				FLOAT				*
+ALLOW		Botpack.UT_HeadMale							Engine.Actor.DrawType							EQ				INT					*
+ALLOW		Botpack.UTHeart								Engine.Actor.LifeSpan							EQ				FLOAT				*
+ALLOW		Botpack.UTHeart								Engine.Actor.DrawScale							EQ				FLOAT				*
+ALLOW		Botpack.UTHeart								Engine.Actor.DrawType							EQ				INT					*
+ALLOW		Botpack.UTLiver								Engine.Actor.LifeSpan							EQ				FLOAT				*
+ALLOW		Botpack.UTLiver								Engine.Actor.DrawScale							EQ				FLOAT				*
+ALLOW		Botpack.UTLiver								Engine.Actor.DrawType							EQ				INT					*
+ALLOW		Botpack.UTStomach							Engine.Actor.LifeSpan							EQ				FLOAT				*
+ALLOW		Botpack.UTStomach							Engine.Actor.DrawScale							EQ				FLOAT				*
+ALLOW		Botpack.UTStomach							Engine.Actor.DrawType							EQ				INT					*
+ALLOW		Botpack.TMaleMasterChunk					Engine.Actor.LifeSpan							EQ				FLOAT				*
+ALLOW		Botpack.TMaleMasterChunk					Engine.Actor.DrawScale							EQ				FLOAT				*
+ALLOW		Botpack.TMaleMasterChunk					Engine.Actor.DrawType							EQ				INT					*
+ALLOW		Botpack.TMaleMasterChunk					Botpack.UTMasterCreatureChunk.bChunked			EQ				BOOL				True
+ALLOW		Botpack.TFemaleMasterChunk					Engine.Actor.LifeSpan							EQ				FLOAT				*
+ALLOW		Botpack.TFemaleMasterChunk					Engine.Actor.DrawScale							EQ				FLOAT				*
+ALLOW		Botpack.TFemaleMasterChunk					Engine.Actor.DrawType							EQ				INT					*
+ALLOW		Botpack.TFemaleMasterChunk					Botpack.UTMasterCreatureChunk.bChunked			EQ				BOOL				True
+ALLOW		Botpack.TBossMasterChunk					Engine.Actor.LifeSpan							EQ				FLOAT				*
+ALLOW		Botpack.TBossMasterChunk					Engine.Actor.DrawScale							EQ				FLOAT				*
+ALLOW		Botpack.TBossMasterChunk					Engine.Actor.DrawType							EQ				INT					*
+ALLOW		Botpack.TBossMasterChunk					Botpack.UTMasterCreatureChunk.bChunked			EQ				BOOL				True
+
+# Liltweaker Blood Tweaks
+ALLOW		Botpack.UT_BloodBurst						Engine.Actor.bHidden							EQ				BOOL				True
+ALLOW		Botpack.UT_BloodBurst						Engine.Actor.bParticles							EQ				BOOL				False
+ALLOW		Botpack.UT_BloodBurst						Engine.Actor.Style								EQ				INT					*
+ALLOW		Botpack.UT_BloodBurst						Engine.Actor.DrawType							EQ				INT					*
+ALLOW		Botpack.UT_BloodBurst						Engine.Actor.LifeSpan							EQ				FLOAT				*
+ALLOW		Botpack.UT_BloodBurst						Engine.Actor.DrawScale							EQ				FLOAT				*
+ALLOW		Botpack.UT_BloodBurst						Engine.Actor.Sprite								EQ				STRING				*
+ALLOW		Botpack.UT_BloodBurst						Engine.Actor.Texture							EQ				STRING				*
+ALLOW		Botpack.UT_BloodBurst						Botpack.UT_Blood2.bGreenBlood					EQ				BOOL				*
+ALLOW		Botpack.UT_BloodBurst						Engine.Actor.bRandomFrame						EQ				BOOL				*
+ALLOW		Botpack.UT_BloodHit							Engine.Actor.bHidden							EQ				BOOL				True
+ALLOW		Botpack.UT_BloodHit							Engine.Actor.bParticles							EQ				BOOL				False
+ALLOW		Botpack.UT_BloodHit							Engine.Actor.Style								EQ				INT					*
+ALLOW		Botpack.UT_BloodHit							Engine.Actor.DrawType							EQ				INT					*
+ALLOW		Botpack.UT_BloodHit							Engine.Actor.LifeSpan							EQ				FLOAT				*
+ALLOW		Botpack.UT_BloodHit							Engine.Actor.DrawScale							EQ				FLOAT				*
+ALLOW		Botpack.UT_BloodHit							Engine.Actor.Sprite								EQ				STRING				*
+ALLOW		Botpack.UT_BloodHit							Engine.Actor.Texture							EQ				STRING				*
+ALLOW		Botpack.UT_BloodHit							Botpack.UT_Blood2.bGreenBlood					EQ				BOOL				*
+ALLOW		Botpack.UT_BloodHit							Engine.Actor.bRandomFrame						EQ				BOOL				*
+ALLOW		Botpack.UT_BigBloodHit						Engine.Actor.bHidden							EQ				BOOL				True
+ALLOW		Botpack.UT_BigBloodHit						Engine.Actor.bParticles							EQ				BOOL				False
+ALLOW		Botpack.UT_BigBloodHit						Engine.Actor.Style								EQ				INT					*
+ALLOW		Botpack.UT_BigBloodHit						Engine.Actor.DrawType							EQ				INT					*
+ALLOW		Botpack.UT_BigBloodHit						Engine.Actor.LifeSpan							EQ				FLOAT				*
+ALLOW		Botpack.UT_BigBloodHit						Engine.Actor.DrawScale							EQ				FLOAT				*
+ALLOW		Botpack.UT_BigBloodHit						Engine.Actor.Sprite								EQ				STRING				*
+ALLOW		Botpack.UT_BigBloodHit						Engine.Actor.Texture							EQ				STRING				*
+ALLOW		Botpack.UT_BigBloodHit						Botpack.UT_Blood2.bGreenBlood					EQ				BOOL				*
+ALLOW		Botpack.UT_BigBloodHit						Engine.Actor.bRandomFrame						EQ				BOOL				*
+ALLOW		Botpack.UT_BloodTrail						Engine.Actor.bHidden							EQ				BOOL				True
+ALLOW		Botpack.UT_BloodTrail						Engine.Actor.bParticles							EQ				BOOL				False
+ALLOW		Botpack.UT_BloodTrail						Engine.Actor.Style								EQ				INT					*
+ALLOW		Botpack.UT_BloodTrail						Engine.Actor.DrawType							EQ				INT					*
+ALLOW		Botpack.UT_BloodTrail						Engine.Actor.LifeSpan							EQ				FLOAT				*
+ALLOW		Botpack.UT_BloodTrail						Engine.Actor.DrawScale							EQ				FLOAT				*
+ALLOW		Botpack.UT_BloodTrail						Engine.Actor.Sprite								EQ				STRING				*
+ALLOW		Botpack.UT_BloodTrail						Engine.Actor.Texture							EQ				STRING				*
+ALLOW		Botpack.UT_BloodTrail						Botpack.UT_Blood2.bGreenBlood					EQ				BOOL				*
+ALLOW		Botpack.UT_BloodTrail						Engine.Actor.bRandomFrame						EQ				BOOL				*
+ALLOW		Botpack.UT_BloodPuff						Engine.Actor.LifeSpan							EQ				FLOAT				*
+ALLOW		Botpack.UT_BloodPuff						Engine.Actor.DrawScale							EQ				FLOAT				*
+ALLOW		Botpack.UT_BloodPuff						Botpack.UT_SpriteSmokePuff.RisingRate			EQ				FLOAT				*
+ALLOW		Botpack.UT_BloodPuff						Botpack.UT_SpriteSmokePuff.SSprites				EQ				STRING				*
+ALLOW		Botpack.UT_BloodPuff						Engine.Actor.Texture							EQ				STRING				*
+ALLOW		Botpack.UT_BloodPuff						Botpack.UT_SpriteSmokePuff.NumSets				EQ				INT					*
+ALLOW		Botpack.UT_BigBloodPuff						Engine.Actor.LifeSpan							EQ				FLOAT				*
+ALLOW		Botpack.UT_BigBloodPuff						Engine.Actor.DrawScale							EQ				FLOAT				*
+ALLOW		Botpack.UT_BigBloodPuff						Botpack.UT_SpriteSmokePuff.RisingRate			EQ				FLOAT				*
+ALLOW		Botpack.UT_BigBloodPuff						Botpack.UT_SpriteSmokePuff.SSprites				EQ				STRING				*
+ALLOW		Botpack.UT_BigBloodPuff						Engine.Actor.Texture							EQ				STRING				*
+ALLOW		Botpack.UT_BigBloodPuff						Botpack.UT_SpriteSmokePuff.NumSets				EQ				INT					*
+ALLOW		Botpack.UT_GreenBloodPuff					Engine.Actor.LifeSpan							EQ				FLOAT				*
+ALLOW		Botpack.UT_GreenBloodPuff					Engine.Actor.DrawScale							EQ				FLOAT				*
+ALLOW		Botpack.UT_GreenBloodPuff					Botpack.UT_SpriteSmokePuff.RisingRate			EQ				FLOAT				*
+ALLOW		Botpack.UT_GreenBloodPuff					Botpack.UT_SpriteSmokePuff.SSprites				EQ				STRING				*
+ALLOW		Botpack.UT_GreenBloodPuff					Engine.Actor.Texture							EQ				STRING				*
+ALLOW		Botpack.UT_GreenBloodPuff					Botpack.UT_SpriteSmokePuff.NumSets				EQ				INT					*
+ALLOW		Botpack.BloodSplat							Engine.Actor.DrawScale							EQ				FLOAT				*
+ALLOW		Botpack.BloodSplat							Engine.Actor.LifeSpan							EQ				FLOAT				*
+ALLOW		Botpack.UTBloodPool2						Engine.Actor.DrawScale							EQ				FLOAT				*
+ALLOW		Botpack.UTBloodPool2						Engine.Actor.LifeSpan							EQ				FLOAT				*
+ALLOW		Botpack.UTBloodPool2						Botpack.UTBloodPool.Splat						EQ				STRING				*
+
+# Liltweaker Smoke Tweaks
+ALLOW		Botpack.LightSmokeTrail						Engine.Actor.ScaleGlow							LT				FLOAT				0.8
+ALLOW		Botpack.LightSmokeTrail						Engine.Actor.LifeSpan							EQ				FLOAT				*
+ALLOW		Botpack.LightSmokeTrail						Engine.Actor.Mesh								EQ				STRING				*
+ALLOW		Botpack.LightSmokeTrail						Botpack.UTSmokeTrail.Curr						EQ				INT					-1
+ALLOW		Botpack.LightSmokeTrail						Botpack.UTSmokeTrail.bRandomize					EQ				BOOL				*
+ALLOW		Botpack.LightSmokeTrail						Engine.Actor.DrawType							EQ				INT					*
+ALLOW		Botpack.LightSmokeTrail						Engine.Actor.LightBrightness					EQ				INT					*
+ALLOW		Botpack.LightSmokeTrail						Engine.Actor.LightSaturation					EQ				INT					*
+ALLOW		Botpack.LightSmokeTrail						Engine.Actor.LightRadius						EQ				INT					*
+ALLOW		Botpack.LightSmokeTrail						Engine.Actor.bParticles							EQ				BOOL				False
+ALLOW		Botpack.LightSmokeTrail						Engine.Actor.bRandomFrame						EQ				BOOL				False
+ALLOW		Botpack.UTSmokeTrail						Engine.Actor.ScaleGlow							LT				FLOAT				0.8
+ALLOW		Botpack.UTSmokeTrail						Engine.Actor.LifeSpan							EQ				FLOAT				*
+ALLOW		Botpack.UTSmokeTrail						Engine.Actor.Mesh								EQ				STRING				*
+ALLOW		Botpack.UTSmokeTrail						Botpack.UTSmokeTrail.Curr						EQ				INT					-1
+ALLOW		Botpack.UTSmokeTrail						Botpack.UTSmokeTrail.bRandomize					EQ				BOOL				*
+ALLOW		Botpack.UTSmokeTrail						Engine.Actor.DrawType							EQ				INT					*
+ALLOW		Botpack.UTSmokeTrail						Engine.Actor.LightBrightness					EQ				INT					*
+ALLOW		Botpack.UTSmokeTrail						Engine.Actor.LightSaturation					EQ				INT					*
+ALLOW		Botpack.UTSmokeTrail						Engine.Actor.LightRadius						EQ				INT					*
+ALLOW		Botpack.UTSmokeTrail						Engine.Actor.bParticles							EQ				BOOL				False
+ALLOW		Botpack.UTSmokeTrail						Engine.Actor.bRandomFrame						EQ				BOOL				False
+
+# Liltweaker Weapon Tweaks
+ALLOW		Botpack.MiniShellCase						Engine.Actor.bHidden							EQ				BOOL				True
+
+# Liltweaker Teleport Tweaks
+ALLOW		Botpack.UTTeleportEffect					Engine.Actor.bHidden							EQ				BOOL				True
+ALLOW		Botpack.UTTeleportEffect					Engine.Actor.bRandomFrame						EQ				BOOL				False
+ALLOW		Botpack.UTTeleportEffect					Botpack.UTTeleportEffect.bSpawnEffects			EQ				BOOL				True
+ALLOW		Botpack.UTTeleportEffect					Engine.Actor.Texture							EQ				STRING				*
+
+# Rendering Properties
+ALLOW		Renderer									LODBias											LE				FLOAT				2.0
+ALLOW		Engine.PlayerPawn							Engine.Actor.RendMap							EQ				INT					5
+
+# Anything else
+DENY		*											*												EQ				*					*
