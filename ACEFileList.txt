@@ -3,17 +3,20 @@
 ####################################################################################################
 # Format:                                                                                          #
 # <Whitelist identifier>                                                                           #
-# <FileName><TAB>*<FileSize><TAB>*<MD5 Hash><TAB>*<File Identifier><TAB>*[<Hacked?>]               #
-# <FileName><TAB>*<FileSize><TAB>*<MD5 Hash><TAB>*<File Identifier><TAB>*[<Hacked?>]               #
+# <FileName><TAB>+<FileSize><TAB>+<MD5 Hash><TAB>+<File Identifier><TAB>+<Hacked>?                 #
+# <FileName><TAB>+<FileSize><TAB>+<MD5 Hash><TAB>+<File Identifier><TAB>+<Hacked>?                 #
 # <Signature>                                                                                      #
-# ...                                                                                              #
-# FileSize = -1 => All sizes allowed                                                               #
-# MD5 Hash = x  => All hashes allowed                                                              #
 #                                                                                                  #
-# Empty lines are ignored                                                                          #
-# Anything behind a '#' char is ignored                                                            #
+# Guidelines:                                                                                      #
+# > Values must be separated by one or more tabs (hence: <TAB>+)                                   #
+# > <FileSize> = -1 => All sizes allowed                                                           #
+# > <MD5 Hash> = x  => All hashes allowed                                                          #
+# > The <Hacked> value is optional                                                                 #
+# > Empty lines are ignored                                                                        #
+# > Anything behind a '#' char is ignored                                                          #
+#                                                                                                  #
 ####################################################################################################
-ACE_20240530_A
+ACE_20240530_B
 
 ##################################################################################################################################
 # Filename              Size            MD5 Hash                                Identifier                              Hacked?  #
@@ -1106,4 +1109,5 @@ XOPENGLDRV.DLL			364032			ED23856DD5C169B28F1B03B105828BCD		UT v469e - 20240120 
 ##################################################################################################################################
 # Signature                                                                                                                      #
 ##################################################################################################################################
-jJO5MpYGLnUzyiYjWQxxgpNVvzOIS5a0c288rZ73ySvBt4BaMIKK2w==
+bVmXwTLL1uLR1tS4TXSldovI27aHuv2lq8QgGQXsNYIYPPsh9PsaUw==
+
