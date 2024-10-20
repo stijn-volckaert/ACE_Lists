@@ -16,7 +16,7 @@
 # > Anything behind a '#' char is ignored                                                          #
 #                                                                                                  #
 ####################################################################################################
-ACE_20241019_A
+ACE_20241019_B
 
 ##################################################################################################################################
 # Filename              Size            MD5 Hash                                Identifier                              Hacked?  #
@@ -156,10 +156,10 @@ ACEV13H_C.DLL			832000			34D9327DC59AA1D820D1BA90B7CA6CB3		ACE v1.3h for UEngine
 ACEV13H_C.DLL			842240			0E068C2153F69DC1D110523061F9CBDF		ACE v1.3h for UEngine 1
 ACEV13H_C.DLL			827904			1B095B3C2D4233F15D9D4677BDBE4282		ACE v1.3h for UEngine 1
 ACEV13H_C.U				27533			D0F18E8E03092BE12E6D59588970BE83		ACE v1.3h for UEngine 1
-ACEV13I_C.DLL			843912			E7B94FE5673CB59631CED88FD7316A47		ACE v1.3i for UEngine 1 - Legacy
-ACEV13I_C.DLL			854152			D5BFBF35B85B7BE82C608802D5860C4C		ACE v1.3i for UEngine 1
-ACEV13I_C.DLL			840328			A8FDF713925FAB4681FF8BC71D6515F3		ACE v1.3i for UEngine 1
-ACEV13I_C.U				27533			4F0B004D7494ED065D07249AED36EE91		ACE v1.3i for UEngine 1
+ACEV13I_C.DLL			843912			C94C59F17EBDB1F20D41330A3E3EF180		ACE v1.3i for UEngine 1 - Legacy
+ACEV13I_C.DLL			854152			11908A5261915CECCEB220D56976BFC1		ACE v1.3i for UEngine 1
+ACEV13I_C.DLL			840840			E93A444D3DAAD3FA4A47B836949FEACA		ACE v1.3i for UEngine 1
+ACEV13I_C.U				27533			68DD009999B4CB025236A7C11B52DF35		ACE v1.3i for UEngine 1
 ACTORRESETTER.U			19688			FBC164B33E1541EAAABC96C241085116		TO 3.40
 ALAUDIO.DLL				139264			9A6A9C86793639619852DAC1A34427E0		OldUnreal MediaPatch v0.1
 ALAUDIO.DLL				139264			779E98199A765B6FD6F3B3C66FF86576		OldUnreal MediaPatch v0.2
@@ -1201,5 +1201,5 @@ XOPENGLDRV.DLL			382088			448CC5762FC296BB867FEA43E59F47E4		UT v469e - 20241019 
 ##################################################################################################################################
 # Signature                                                                                                                      #
 ##################################################################################################################################
-jchTe160Bw2olzHi7xzO4lg0WeOKNdb6M0+OTyjjY1chPni5UxHtjg==
+AfDOp4kpDQtWUbUf8pVqNnVjQm0okjCQbTLBjatGN+FlAXdZjZ6dQA==
 
