@@ -16,7 +16,7 @@
 # > Anything behind a '#' char is ignored                                                          #
 #                                                                                                  #
 ####################################################################################################
-ACE_20241019_B
+ACE_20241020_A
 
 ##################################################################################################################################
 # Filename              Size            MD5 Hash                                Identifier                              Hacked?  #
@@ -160,6 +160,10 @@ ACEV13I_C.DLL			843912			C94C59F17EBDB1F20D41330A3E3EF180		ACE v1.3i for UEngine
 ACEV13I_C.DLL			854152			11908A5261915CECCEB220D56976BFC1		ACE v1.3i for UEngine 1
 ACEV13I_C.DLL			840840			E93A444D3DAAD3FA4A47B836949FEACA		ACE v1.3i for UEngine 1
 ACEV13I_C.U				27533			68DD009999B4CB025236A7C11B52DF35		ACE v1.3i for UEngine 1
+ACEV13J_C.DLL			843912			2EFE2E8F148E76B2AAA7A09B35837C3C		ACE v1.3j for UEngine 1 - Legacy
+ACEV13J_C.DLL			854152			4010FC2788EF1082EBC7F6A17B959378		ACE v1.3j for UEngine 1
+ACEV13J_C.DLL			840840			B559236DD0F9805085DD37571901480B		ACE v1.3j for UEngine 1
+ACEV13J_C.U				27533			52051E55B0D5E56091B35CFE512A85C9		ACE v1.3j for UEngine 1
 ACTORRESETTER.U			19688			FBC164B33E1541EAAABC96C241085116		TO 3.40
 ALAUDIO.DLL				139264			9A6A9C86793639619852DAC1A34427E0		OldUnreal MediaPatch v0.1
 ALAUDIO.DLL				139264			779E98199A765B6FD6F3B3C66FF86576		OldUnreal MediaPatch v0.2
@@ -1201,5 +1205,5 @@ XOPENGLDRV.DLL			382088			448CC5762FC296BB867FEA43E59F47E4		UT v469e - 20241019 
 ##################################################################################################################################
 # Signature                                                                                                                      #
 ##################################################################################################################################
-AfDOp4kpDQtWUbUf8pVqNnVjQm0okjCQbTLBjatGN+FlAXdZjZ6dQA==
+gq0WFRsfSrsR05+edHa6BsQHa5Nrf5qKQFt0lYDGa4PtdjVqRBayRw==
 
