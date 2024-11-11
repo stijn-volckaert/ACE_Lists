@@ -3,17 +3,20 @@
 ####################################################################################################
 # Format:                                                                                          #
 # <Whitelist identifier>                                                                           #
-# <FileName><TAB>*<FileSize><TAB>*<MD5 Hash><TAB>*<File Identifier><TAB>*[<Hacked?>]               #
-# <FileName><TAB>*<FileSize><TAB>*<MD5 Hash><TAB>*<File Identifier><TAB>*[<Hacked?>]               #
+# <FileName><TAB>+<FileSize><TAB>+<MD5 Hash><TAB>+<File Identifier><TAB>+<Hacked>?                 #
+# <FileName><TAB>+<FileSize><TAB>+<MD5 Hash><TAB>+<File Identifier><TAB>+<Hacked>?                 #
 # <Signature>                                                                                      #
-# ...                                                                                              #
-# FileSize = -1 => All sizes allowed                                                               #
-# MD5 Hash = x  => All hashes allowed                                                              #
 #                                                                                                  #
-# Empty lines are ignored                                                                          #
-# Anything behind a '#' char is ignored                                                            #
+# Guidelines:                                                                                      #
+# > Values must be separated by one or more tabs (hence: <TAB>+)                                   #
+# > <FileSize> = -1 => All sizes allowed                                                           #
+# > <MD5 Hash> = x  => All hashes allowed                                                          #
+# > The <Hacked> value is optional                                                                 #
+# > Empty lines are ignored                                                                        #
+# > Anything behind a '#' char is ignored                                                          #
+#                                                                                                  #
 ####################################################################################################
-ACE_20241021_A
+ACE_20241111_A
 
 ##################################################################################################################################
 # Filename              Size            MD5 Hash                                Identifier                              Hacked?  #
@@ -161,6 +164,10 @@ ACEV13J_C.DLL			843912			2EFE2E8F148E76B2AAA7A09B35837C3C		ACE v1.3j for UEngine
 ACEV13J_C.DLL			854152			4010FC2788EF1082EBC7F6A17B959378		ACE v1.3j for UEngine 1
 ACEV13J_C.DLL			840840			B559236DD0F9805085DD37571901480B		ACE v1.3j for UEngine 1
 ACEV13J_C.U				27533			52051E55B0D5E56091B35CFE512A85C9		ACE v1.3j for UEngine 1
+ACEV13K_C.DLL			843912			ACAAE901BA57C04ED548A5749078D5F4		ACE v1.3k for UEngine 1 - Legacy
+ACEV13K_C.DLL			854152			E32475779F3F26C7D6333E41B918729B		ACE v1.3k for UEngine 1
+ACEV13K_C.DLL			840840			7DE871015E36680E891446239C64A746		ACE v1.3k for UEngine 1
+ACEV13K_C.U				27533			1FDA8DC6134D7CC7F0C91DC9797174D3		ACE v1.3k for UEngine 1
 ACTORRESETTER.U			19688			FBC164B33E1541EAAABC96C241085116		TO 3.40
 ALAUDIO.DLL				139264			9A6A9C86793639619852DAC1A34427E0		OldUnreal MediaPatch v0.1
 ALAUDIO.DLL				139264			779E98199A765B6FD6F3B3C66FF86576		OldUnreal MediaPatch v0.2
@@ -1347,4 +1354,5 @@ XOPENGLDRV.DLL			382600			3BA5E0A871903228C356A43957FBD06A		UT v469e - RC1
 ##################################################################################################################################
 # Signature                                                                                                                      #
 ##################################################################################################################################
+g0AgzRFNR5I9VUMR4++rHVloRoBhS0C64TRSMBTHpUyCiE9n3WYbSA==
 
