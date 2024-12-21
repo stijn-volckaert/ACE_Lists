@@ -16,7 +16,7 @@
 # > Anything behind a '#' char is ignored                                                          #
 #                                                                                                  #
 ####################################################################################################
-ACE_20241220_A
+ACE_20241221_A
 
 ##################################################################################################################################
 # Filename              Size            MD5 Hash                                Identifier                              Hacked?  #
@@ -1095,7 +1095,6 @@ SOLDIERSKINS.UTX		5426617			86CC97C9B73591E0891DB2ABF98A8FB6		LODBias-compatible
 SWFMOD.DLL				307200			7E5240D151BEBE9F6FAA742441E0891A		SwFModEx Audio
 SWFMOD.U				10605			60D33BE752BB5412CADF2F8C5B06D0EF		SwFModEx Audio
 S_SWAT.U				1101952			CB506EBF4FB7431745EB4D565BC1D751		TO 3.40
-TACTICALOPS.EXE			233472			51ce65a0408fd94b935c7e63b4f1ed92		TO 3.40/3.50
 TCOWMESHSKINS.UTX		4917931			70269D9527F5E4C014ACEFF6D1C5A989		Unreal HD Texture Pack 3.5.1
 TNALIMESHSKINS.UTX		16796353		FEA5619395B20639293820CC9D9DE49E		Unreal HD Texture Pack 3.5.1
 TOPMODELS.U				8754924			25608EA7AAD1707054064CBC862B0E0C		TO 3.40
@@ -1182,6 +1181,7 @@ UNREALSHARE.U			22192707		C1B8144B195479796B2E50AADFBD9A51		UT v469d Release
 UNREALSHARE.U			22192693		9E7DBD70E3F1935195AB2BBEBD4B82FF		UT v469e - 20240114 Preview
 UNREALSHARE.U			22195438		F7FC068AD934292DDD3403E85357B54A		UT v469e - 20241019 Preview
 UNREALTOURNAMENT.EXE	237568			1E8777CD29E40F45AA824E9628CC322F		UT DEMO v348
+UNREALTOURNAMENT.EXE	233472			51ce65a0408fd94b935c7e63b4f1ed92		TO 3.40/3.50
 UNREALTOURNAMENT.EXE	241664			BE1EBBBF69CCE554BA21D499136D1531		UT v432 GOTY
 UNREALTOURNAMENT.EXE	241664			7DADCC7E3A9A3D66001E3B37CF636F0E		UT v436 Std
 UNREALTOURNAMENT.EXE	241664			3BE15B58F47063478D419FC04E589DBA		UT v436 GOTY
@@ -1512,5 +1512,5 @@ XOPENGLDRV.DLL			383112			C2A66921AE52428E36DDDB406E7E9FAF		UT v469e - RC4
 ##################################################################################################################################
 # Signature                                                                                                                      #
 ##################################################################################################################################
-XSHrE0vVlK1ygO2Qj3LF1i4ZXklj8ezGo7iN25ZOEaYQ+q6O0KGfzg==
+EYQQaYJZvwLY7d8NpBSqKSYFic8biVl7L1jdRZVPagqKx4ceKR/YjQ==
 
