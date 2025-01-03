@@ -16,7 +16,7 @@
 # > Anything behind a '#' char is ignored                                                          #
 #                                                                                                  #
 ####################################################################################################
-ACE_20250102_A
+ACE_20250103_A
 
 ##################################################################################################################################
 # Filename              Size            MD5 Hash                                Identifier                              Hacked?  #
@@ -1504,7 +1504,7 @@ XC_CORE.DLL				381952			1A4B7AB29B9ED20A5E8E30B42D35E1A3		XC Engine 25
 XC_CORE.DLL				386560			BAD68376FB4FE94E00E2E705C9DEF935		XC Engine 25b
 XC_CORE.DLL				389632			C1D456403C2C2AF9D353C9C02081C3D2		XC Engine 25c
 XC_CORE.DLL				267776			29D7136FCD7DE213D662462E88850213		XC Engine 26
-XC_CORE.DLL				273920			7010EA0955CE25ADC0F367F4E1F89118		XC Engine 27
+XC_CORE.DLL				273920			F8708B396AF430084AEf62CA31D6B2F1		XC Engine 27
 XC_EDITOR.DLL			25600			6B218162E19FB53E6454F25C7C0BCBA3		XC Engine 26
 XC_EDITOR.DLL			27136			3AFD0085AFFA2D9C24ED97996DC50518		XC Engine 27
 XC_ENGINE.DLL			300544			68971c880597bc01bb63256d40680fe9		XC_Engine v23
@@ -1513,13 +1513,13 @@ XC_ENGINE.DLL			299520			5EBED5EDBE924907379B6EC19620F896		XC Engine 25
 XC_ENGINE.DLL			291328			8BBD7728B8CF9AD0304ED3C30C26C828		XC Engine 25b
 XC_ENGINE.DLL			289792			CE26F68019A7EC35C5A2D28DE536D818		XC Engine 25c
 XC_ENGINE.DLL			192512			0F556C56225A4090B645A0AFC2DE45F9		XC Engine 26
-XC_ENGINE.DLL			195072			65016D6CE4D6B6879D610C578FD15EEA		XC Engine 27
+XC_ENGINE.DLL			195072			41116C5CD731DCA3F7157AD573E4840A		XC Engine 27
 XC_IPDRV.DLL			81408			49CF7D4E7A2F0D8174CF1833A400EB27		XC_Engine v24
 XC_IPDRV.DLL			109568			B13F7D2FA6CE9F339BC40EAE456D73DA		XC Engine 25
 XC_IPDRV.DLL			114176			EB82094ED2B0321B7C26F4A2AE38804B		XC Engine 25b
 XC_IPDRV.DLL			115200			B871778B5760FC817227602436AF55B5		XC Engine 25c
 XC_IPDRV.DLL			67584			8328B1BC8F4A1C40BA7F7E209B0A87DA		XC Engine 26
-XC_IPDRV.DLL			68608			12A43BE3CDC7FD6E53843AB71AB7C5EA		XC Engine 27
+XC_IPDRV.DLL			68608			32BD61EB0FCDA35ACA93B6C2AC4E681A		XC Engine 27
 XOPENGLDRV.DLL			345600			A2504FAF9ED4F759AE28E38EB6EB50BC		OldUnreal XOpenGLDrv v1.0.0.9
 XOPENGLDRV.DLL			360960			2BA4F489CC9B803B3DD35E3777CA0865		OldUnreal XOpenGLDrv v1.0.0.8
 XOPENGLDRV.DLL			350208			949455C97D9F151970E199EA89F04147		OldUnreal XOpenGLDrv v1.0.0.7
@@ -1569,5 +1569,5 @@ XOPENGLDRV.DLL			369152			602322F3A2BCF262264124D0F4962391		UT v469e - RC5 - Win
 ##################################################################################################################################
 # Signature                                                                                                                      #
 ##################################################################################################################################
-XHfagSJJHur2UwY0yNoZtgnhSs6DVR4bLekuCBaQKnfu5KYMr8LHJQ==
+cq8XzQle8i6jl9+lOrfvqGQRomgLAcnYQBEcC5kardBRUbtWF4iGvg==
 
