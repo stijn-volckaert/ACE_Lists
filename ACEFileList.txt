@@ -16,7 +16,7 @@
 # > Anything behind a '#' char is ignored                                                          #
 #                                                                                                  #
 ####################################################################################################
-ACE_20250111_A
+ACE_20250111_B
 
 ##################################################################################################################################
 # Filename              Size            MD5 Hash                                Identifier                              Hacked?  #
@@ -172,6 +172,10 @@ ACEV13L_C.DLL			843912			33A07D837EFF324674ED314A86329DCC		ACE v1.3l for UEngine
 ACEV13L_C.DLL			855176			AF30E4FE995D85F8AAE2B1D94B1A6197		ACE v1.3l for UEngine 1
 ACEV13L_C.DLL			840328			EE9A47D0976BFA3B2EA7DBF4BE2E4ED5		ACE v1.3l for UEngine 1
 ACEV13L_C.U				27533			352D366A14B11EDDC5F4E3D77FD150D6		ACE v1.3l for UEngine 1
+ACEV13M_C.DLL			843912			8A49F9ABDD778040E4440E29F96417FE		ACE v1.3m for UEngine 1 - Legacy
+ACEV13M_C.DLL			855176			AC9AE34D7E513E205E571FE3E642C368		ACE v1.3m for UEngine 1
+ACEV13M_C.DLL			840840			177F97431F4CCBA40D3144AF7EF8A94B		ACE v1.3m for UEngine 1
+ACEV13M_C.U				27533			B31FD8D09CBA31863C3E710FA90DECB3		ACE v1.3m for UEngine 1
 ACTORRESETTER.U			19688			FBC164B33E1541EAAABC96C241085116		TO 3.40
 ALAUDIO.DLL				139264			9A6A9C86793639619852DAC1A34427E0		OldUnreal MediaPatch v0.1
 ALAUDIO.DLL				139264			779E98199A765B6FD6F3B3C66FF86576		OldUnreal MediaPatch v0.2
@@ -1617,5 +1621,5 @@ XOPENGLDRV.DLL			383112			A0AC7BD92D8293D52CB811FF9541B02A		UT v469e - RC6
 ##################################################################################################################################
 # Signature                                                                                                                      #
 ##################################################################################################################################
-eUyBCHpfBiB1tsvjuZ+CSjoYs32SNZy4NxgYguHpAsUbdd3YjESMPQ==
+TDOQa7wBkQ6LN1XHpXJ49kH2rZ4nA/uaCQDCrYvk+jmq6RhHXoTB6g==
 
