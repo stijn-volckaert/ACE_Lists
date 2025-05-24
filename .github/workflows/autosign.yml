@@ -31,7 +31,8 @@ jobs:
           path: ACESignSupport
 
       - run: chmod u+x ACESignSupport/ACESign-CryptoPP
-	  - run: chmod u+x ACESignSupport/ACESign-OpenSSL
+
+      - run: chmod u+x ACESignSupport/ACESign-OpenSSL
 
       - name: Rewrite timestamp and sign filelist
         run: /usr/bin/ruby ACESignSupport/signutils.rb
