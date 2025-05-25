@@ -16,7 +16,7 @@
 # > Anything behind a '#' char is ignored                                                          #
 #                                                                                                  #
 ####################################################################################################
-ACE_20250524_A
+ACE_20250525_A
 
 ##################################################################################################################################
 # Filename              Size            MD5 Hash                                Identifier                              Hacked?  #
@@ -183,7 +183,7 @@ ACEV13N_C.U				27533			B026E604AE98EEA5051F063575E85037		ACE v1.3n for UEngine 1
 ACEV13O_C.DLL			843872			92d4cb65754f7d48e55a3fd6a906a632		ACE v1.3o for UEngine 1 - Legacy
 ACEV13O_C.DLL			855648			7922c787ce1f2f32d1246bb0be350f77		ACE v1.3o for UEngine 1
 ACEV13O_C.DLL			848992			a3b6775b8f43515f68caad94eb681a56		ACE v1.3o for UEngine 1
-ACEV13O_C.U				27533			51a0ad90fa0f34c4165807ec476b8ddc		ACE v1.3o for UEngine 1
+ACEV13O_C.U				27533			97a3affe989e2574912a1ac713741c60		ACE v1.3o for UEngine 1
 ACTORRESETTER.U			19688			FBC164B33E1541EAAABC96C241085116		TO 3.40
 ALAUDIO.DLL				139264			9A6A9C86793639619852DAC1A34427E0		OldUnreal MediaPatch v0.1
 ALAUDIO.DLL				139264			779E98199A765B6FD6F3B3C66FF86576		OldUnreal MediaPatch v0.2
@@ -1734,5 +1734,5 @@ XOPENGLDRV.DLL			383064			269EB4A1DFB1E844E400ACCCBE8D56FC		UT v469e - RC8
 ##################################################################################################################################
 # Signature                                                                                                                      #
 ##################################################################################################################################
-DVrE7t25dZnZ+8W7QmYgljVb9NUteCODy7ioTq19GF91lRcT7tbfFw==
+TPr8dA01UkJVC+IzYG0P9VvGvyJ/v52SZkRkPvuzs7NM04nada9zLw==
 
