@@ -16,7 +16,7 @@
 # > Anything behind a '#' char is ignored                                                          #
 #                                                                                                  #
 ####################################################################################################
-ACE_20251014_A
+ACE_20251017_A
 
 ##################################################################################################################################
 # Filename              Size            MD5 Hash                                Identifier                              Hacked?  #
@@ -184,6 +184,10 @@ ACEV13O_C.DLL			843872			92d4cb65754f7d48e55a3fd6a906a632		ACE v1.3o for UEngine
 ACEV13O_C.DLL			855648			7922c787ce1f2f32d1246bb0be350f77		ACE v1.3o for UEngine 1
 ACEV13O_C.DLL			848992			a3b6775b8f43515f68caad94eb681a56		ACE v1.3o for UEngine 1
 ACEV13O_C.U				27533			97a3affe989e2574912a1ac713741c60		ACE v1.3o for UEngine 1
+ACEV13P_C.DLL			844384			7f03470bcd28f51d80c5908b7361a59c		ACE v1.3p for UEngine 1 - Legacy
+ACEV13P_C.DLL			855648			08339ae9bfff945f8257d35c37381bac		ACE v1.3p for UEngine 1
+ACEV13P_C.DLL			868448			1b40f482529717299f6a45d4e8855490		ACE v1.3p for UEngine 1
+ACEV13P_C.U				27533			bd6c09fab687ac7ec8db3e81934a2a3f		ACE v1.3p for UEngine 1
 ACTORRESETTER.U			19688			FBC164B33E1541EAAABC96C241085116		TO 3.40
 ALAUDIO.DLL				139264			9A6A9C86793639619852DAC1A34427E0		OldUnreal MediaPatch v0.1
 ALAUDIO.DLL				139264			779E98199A765B6FD6F3B3C66FF86576		OldUnreal MediaPatch v0.2
@@ -1833,4 +1837,4 @@ XOPENGLDRV.DLL			390752			e05d8b58c2b6717aea44dc9be30791fa		UT v469e - RC10
 ##################################################################################################################################
 # Signature                                                                                                                      #
 ##################################################################################################################################
-MD0CHHPkGSLXSQ6FCsoFghknVWdttPBq5J8Ly0KIA1QCHQC0OqQ7Kwzj4uXFCbelQfwqG/8AS95FxfhHTI/X
+MD0CHCmiIvWBKH7UCpgDI2y1K+tJe6OVbj1StQX/HF4CHQDBO0S0rF0E07ZW9wm1Gfbgr1mbqwv/Hm75BPXy
