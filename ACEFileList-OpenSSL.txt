@@ -16,7 +16,7 @@
 # > Anything behind a '#' char is ignored                                                          #
 #                                                                                                  #
 ####################################################################################################
-ACE_20251017_A
+ACE_20251021_A
 
 ##################################################################################################################################
 # Filename              Size            MD5 Hash                                Identifier                              Hacked?  #
@@ -188,6 +188,7 @@ ACEV13P_C.DLL			844384			7f03470bcd28f51d80c5908b7361a59c		ACE v1.3p for UEngine
 ACEV13P_C.DLL			855648			08339ae9bfff945f8257d35c37381bac		ACE v1.3p for UEngine 1
 ACEV13P_C.DLL			868448			1b40f482529717299f6a45d4e8855490		ACE v1.3p for UEngine 1
 ACEV13P_C.U				27533			bd6c09fab687ac7ec8db3e81934a2a3f		ACE v1.3p for UEngine 1
+ACEV13P_C.DLL			860672			d680f41bf297b9ae55353145afe153fe		ACE v1.3p - timeout debug
 ACTORRESETTER.U			19688			FBC164B33E1541EAAABC96C241085116		TO 3.40
 ALAUDIO.DLL				139264			9A6A9C86793639619852DAC1A34427E0		OldUnreal MediaPatch v0.1
 ALAUDIO.DLL				139264			779E98199A765B6FD6F3B3C66FF86576		OldUnreal MediaPatch v0.2
@@ -1837,4 +1838,4 @@ XOPENGLDRV.DLL			390752			e05d8b58c2b6717aea44dc9be30791fa		UT v469e - RC10
 ##################################################################################################################################
 # Signature                                                                                                                      #
 ##################################################################################################################################
-MD0CHCmiIvWBKH7UCpgDI2y1K+tJe6OVbj1StQX/HF4CHQDBO0S0rF0E07ZW9wm1Gfbgr1mbqwv/Hm75BPXy
+MDwCHDRUdyjwg2lXAG9o3AFAdrMS+dzf4NuJ5e1SJ9ECHB8ba20QYeI8cGevsKbcoS4gH63HW5ZKrjAy6Hs=
