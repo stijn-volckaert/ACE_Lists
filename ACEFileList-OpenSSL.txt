@@ -16,7 +16,7 @@
 # > Anything behind a '#' char is ignored                                                          #
 #                                                                                                  #
 ####################################################################################################
-ACE_20251106_B
+ACE_20251108_A
 
 ##################################################################################################################################
 # Filename              Size            MD5 Hash                                Identifier                              Hacked?  #
@@ -1390,6 +1390,10 @@ WINDRV.DLL				220672			E1E9B35168DFACCE0A7C091445D8EB2F		UT v469a Release
 WINDRV.DLL				230688			B9342B73B825D8A90F996992A0554D14		UT v469b Release
 WINDRV.DLL				228112			852658FEA83369CABF7676D34FBE5584		UT v469c Release
 WINDRV.DLL				228624			B0EAF2E1CC0DEB3481A515C50548FAFB		UT v469c Release - WinXP
+WINDRV.DLL				228112			2606DFCDFD0CA9796995DB3C527FBD68		UT v469c Release - Exclusive Fullscreen Fix
+WINDRV.DLL				228624			4073E9D52A8FD152540EE6564EB2B85F		UT v469c Release - WinXP - Exclusive Fullscreen Fix
+WINDRV.DLL				228112			91E12829F4BDDD94A7AC7B55A38DA818		UT v469c Release - Exclusive Fullscreen Fix v2
+WINDRV.DLL				228624			09AB0876A284BB1017F9126C101695BC		UT v469c Release - WinXP - Exclusive Fullscreen Fix v2
 WINDRV.DLL				233224			F3A0A53133CBA232B95E774B803DAE73		UT v469d Release - WinXP
 WINDRV.DLL				232712			D57EB786BB9F262D5ECB619092349155		UT v469d Release
 WINDRV.DLL				241288			A282720FB7B4B68F70BD9CF125807AB0		UT v469e - RC1 - WinXP
@@ -1480,4 +1484,4 @@ XOPENGLDRV.DLL			390752			0dde1d98a97188509200e0a8566c99c4		UT v469e Release
 ##################################################################################################################################
 # Signature                                                                                                                      #
 ##################################################################################################################################
-MDwCHFNpw8ly3DSpPw4XhgZnWzRByxyoiKfzlJkPJwgCHHqWQ6+PuhbWqtI/75ggz0sWf9GOrXYtmvaleIg=
+MDwCHCBrMCWZmawYHXXyTOgAgGwpEg01lOA773ZTxgACHB9CZJl9kUVNOIeml17zHT1gS3dbKpqKUEkIvR4=
