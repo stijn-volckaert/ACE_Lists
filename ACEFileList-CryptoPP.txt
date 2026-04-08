@@ -16,7 +16,7 @@
 # > Anything behind a '#' char is ignored                                                          #
 #                                                                                                  #
 ####################################################################################################
-ACE_20260407_A
+ACE_20260408_A
 
 ##################################################################################################################################
 # Filename              Size            MD5 Hash                                Identifier                              Hacked?  #
@@ -197,8 +197,8 @@ ACEV14A_C.DLL			1105408			6A1C42565D385927C4A7A6ACF3A5D343		ACE v1.4a Client x64
 ACEV14A_C.SO			2238288			D4238034E56C1FF3AF0B8E90C1AE4DD6		ACE v1.4a Client Linux x86
 ACEV14A_C.SO			2255160			25DCE0406CD26AB50847EA634066785E		ACE v1.4a Client Linux amd64
 ACEV14A_C.SO			555880			09649B58E3B944E0972A1562BA8B2E36		ACE v1.4a Client Linux arm64
-ACEV14A_C.U				27598			661F265184B6303102C2654AF89594A5		ACE v1.4a Client Package
-ACEV14A_CDLL.U			4896568			441DCF74E409177C665B1B594D6E8714		ACE v1.4a DLL Container
+ACEV14A_C.U				27598			8E9F1DEC6612A4A1CCC4AB69B1AC4E0F		ACE v1.4a Client Package
+ACEV14A_CDLL.U			4896568			C9FCE79E722274541D25E793C16B34AB		ACE v1.4a DLL Container
 ACTORRESETTER.U			19688			FBC164B33E1541EAAABC96C241085116		TO 3.40
 ALAUDIO.DLL				139264			9A6A9C86793639619852DAC1A34427E0		OldUnreal MediaPatch v0.1
 ALAUDIO.DLL				139264			779E98199A765B6FD6F3B3C66FF86576		OldUnreal MediaPatch v0.2
@@ -808,7 +808,7 @@ HRTFAUDIO.DLL			814080			C4B7D1E11AB0F8B938C8DE094C2FB2E9		HRTFAudio v1.3
 HRTFAUDIO.DLL			814080			9CCE121789347B056408EC899429D94C		HRTFAudio v1.4
 HRTFAUDIO.DLL			862720			AC07F0BB5DF479D772044A90A4A3393F		HRTFAudio v2.1
 HRTFAUDIO.DLL			863744			12C2D17030505BA260EADD86FAF31FB1		HRTFAudio v2.3
-IACEV14.U				147236			51AD4F3046F241B4217666888371C928		ACE v1.4a Interface
+IACEV14.U				147277			E52FC76DDF24D036CD50B21B6F742130		ACE v1.4a Interface
 ICBINDX11DRV.DLL		583168			01059A65FF432FB479E772CE06470BD9		ICBINDx11Drv v0.6.9
 ICBINDX11DRV.DLL		751616			37A2A42FA1B92E5FF165054055C87493		ICBINDx11Drv v0.8.9
 ICBINDX11DRV.DLL		400520			2EDFE44370965D43E0924D3666CC7C97		UT v469e - RC1
@@ -1718,5 +1718,5 @@ XOPENGLDRV.SO			748000			0B4701EAE6085104E2414B9A5CA1C7CC		UT v469b Linux x86
 ##################################################################################################################################
 # Signature                                                                                                                      #
 ##################################################################################################################################
-hTgQsdOCsPB5Hk44u5AR3a0dtihPVc32DlrWe129Nzf++iN2as6taQ==
+jEf28WZprldtjUcop5R8H8jOTIol/4tcIEdo2Za3GLNJ8hDvGceWCA==
 
