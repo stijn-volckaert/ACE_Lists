@@ -16,7 +16,7 @@
 # > Anything behind a '#' char is ignored                                                          #
 #                                                                                                  #
 ####################################################################################################
-ACE_20260421_C
+ACE_20260423_A
 
 ##################################################################################################################################
 # Filename              Size            MD5 Hash                                Identifier                              Hacked?  #
@@ -906,15 +906,15 @@ LIBOPENAL.SO			1148642			BDCAFF731F4B6CDD5B09DE2397649CA4		UT v469c Linux amd64
 LIBOPENAL.SO			1158161			6EFC82DA2575B5C81009EA8F6AAC82EE		UT v469d Linux x86
 LIBOPENAL.SO			1568329			599ECD28566D529197BCA01361F9F895		UT v469b Linux x86
 LIBOPENAL.SO			3189022			2D3DF9904978FFEEA443CCBC8B47C4E9		UT v469c Linux x86
-LIBSDL2-2.0				1260292			6219D1F7E8E26577F582EFAFB35EC463		UT v469a Linux x86
-LIBSDL2-2.0				1528649			5EFFF520F42F01355EE2478ABCA72423		UT v469b Linux x86
-LIBSDL2-2.0				1690669			67957EF77AFF64A56AEDA78AD6C64F1F		UT v469d Linux x86
-LIBSDL2-2.0				1858633			B9CA09FE64321E60B76F57E147D253DB		UT v469c Linux amd64
-LIBSDL2-2.0				2029496			B421565D6606100FBD5B90F3212E3A28		UT v469d Linux amd64
-LIBSDL2-2.0				2208255			226B9C33A29F08029F675F5E6F8E4BBA		UT v469c Linux x86
-LIBSDL2-2.0				2266760			941E3EC853C1E42CE5DDC2BC2E8A71B0		UT v469d Linux arm64
-LIBSDL2_TTF-2.0			30180			AB5FDCDC54E0DD6B2B29D7002F57E9E5		UT v469a Linux x86
-LIBSDL2_TTF-2.0			31008			E5E48254BAEB8E1763843222F09F189E		UT v469e Linux amd64
+LIBSDL2-2.0.SO			1260292			6219D1F7E8E26577F582EFAFB35EC463		UT v469a Linux x86
+LIBSDL2-2.0.SO			1528649			5EFFF520F42F01355EE2478ABCA72423		UT v469b Linux x86
+LIBSDL2-2.0.SO			1690669			67957EF77AFF64A56AEDA78AD6C64F1F		UT v469d Linux x86
+LIBSDL2-2.0.SO			1858633			B9CA09FE64321E60B76F57E147D253DB		UT v469c Linux amd64
+LIBSDL2-2.0.SO			2029496			B421565D6606100FBD5B90F3212E3A28		UT v469d Linux amd64
+LIBSDL2-2.0.SO			2208255			226B9C33A29F08029F675F5E6F8E4BBA		UT v469c Linux x86
+LIBSDL2-2.0.SO			2266760			941E3EC853C1E42CE5DDC2BC2E8A71B0		UT v469d Linux arm64
+LIBSDL2_TTF-2.0.SO		30180			AB5FDCDC54E0DD6B2B29D7002F57E9E5		UT v469a Linux x86
+LIBSDL2_TTF-2.0.SO		31008			E5E48254BAEB8E1763843222F09F189E		UT v469e Linux amd64
 LIBSNDFILE.SO			1988520			6C51DB79C9112AC96B17004C45E21177		UT v469e Linux x86
 LIBSNDFILE.SO			2021059			385BD78DF147B35B7387DE9E1F1E970F		UT v469d Linux x86
 LIBSNDFILE.SO			2342816			B13447A935BCD8640B893B0DEAE8AF07		UT v469d Linux arm64
@@ -1728,5 +1728,4 @@ XOPENGLDRV.SO			748000			0B4701EAE6085104E2414B9A5CA1C7CC		UT v469b Linux x86
 ##################################################################################################################################
 # Signature                                                                                                                      #
 ##################################################################################################################################
-U/VAGGOX3uMaH8vWSN7KCinOMTEfRGfre6d++MN0bU+z+y+3wziDPA==
-
+MCwCFBk4QHQ8W6IeL9/WJ1RwoU503YFSAhRu32ykaAZM/raiuHGKiy6cRPknCA==
