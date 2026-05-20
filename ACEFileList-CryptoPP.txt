@@ -16,7 +16,7 @@
 # > Anything behind a '#' char is ignored                                                          #
 #                                                                                                  #
 ####################################################################################################
-ACE_20260520_A
+ACE_20260520_B
 
 ##################################################################################################################################
 # Filename              Size            MD5 Hash                                Identifier                              Hacked?  #
@@ -1011,6 +1011,7 @@ NULLNETDRIVER.SO		51224			548C93D3A5242A5F7A27F5F6488FA5B7		UT v469b Linux x86
 NULLNETDRIVER.SO		51224			7E5C8EC132B7148E773BDFBBDD286661		UT v469c Linux x86
 NULLNETDRIVER.SO		56400			D6EA3AF473E8253932D574F6D105E798		UT v469e Linux x86
 NULLNETDRIVER.SO		64628			04AF9293D5241898882D579855050DB1		UT v469a Linux x86
+OLDSKOOL.U				1449519			04379C4C718AF754DCF8BBB6652896E5		OldSkool 2.40
 OLDUNREAL469C.U			9469			9A3D9B68F99EF3FC14802FFA5521352E		UT v469c Linux amd64
 OPENAL32.DLL			1123328			C5F179369C13FA0EE9ABE51954D12DFD		UT v469a Release
 OPENAL32.DLL			2011952			76AD48362F86D02CE1D2C20C2D944C57		UT v469b Release
@@ -1739,4 +1740,4 @@ XOPENGLDRV.SO			748000			0B4701EAE6085104E2414B9A5CA1C7CC		UT v469b Linux x86
 ##################################################################################################################################
 # Signature                                                                                                                      #
 ##################################################################################################################################
-MCwCFAGdciVIITldMFRjI55VIWfZRrjZAhRcH2ce+MidpuO66GFvP5CbEWa/qw==
+MCwCFHrj8m85xBTIq9BckuOpUovOooJaAhRjHs1vQG99Sx1o6tJ0tvF2JcjG9Q==
