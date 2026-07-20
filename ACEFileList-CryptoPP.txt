@@ -16,7 +16,7 @@
 # > Anything behind a '#' char is ignored                                                          #
 #                                                                                                  #
 ####################################################################################################
-ACE_20260719_A
+ACE_20260720_A
 
 ##################################################################################################################################
 # Filename              Size            MD5 Hash                                Identifier                              Hacked?  #
@@ -229,6 +229,16 @@ ACEV14D_C.SO			2250680			4CA87B97424CBB4B7F1AF32651A123AC		ACE v1.4d Client Linu
 ACEV14D_C.SO			555464			E9FCCB54924C9AE085EBBD8486A84361		ACE v1.4d Client Linux arm64
 ACEV14D_C.U				27615			FAFE73693935AA826BE8C974B58FB730		ACE v1.4d Client Package
 ACEV14D_CDLL.U			4880696			D098998C8BBBE48BF040B55F56BFB570		ACE v1.4d DLL Container
+ACEV14E_C.DLL			895488			F26F03C60BCAAF32CF8D9525F5C56AA7		ACE v1.4e Client x86 Legacy
+ACEV14E_C.DLL			889344			D23FCC02A34D40FD34B74D60117B5310		ACE v1.4e Client x86 SSE2
+ACEV14E_C.DLL			889344			3D9E02568069A2BACCA252F653F01C2D		ACE v1.4e Client x86 AVX2
+ACEV14E_C.DLL			1102848			D5B635A7D9D9E55C3AF5165A96B68F25		ACE v1.4e Client x64 SSE2
+ACEV14E_C.DLL			1102336			839BBA62862A1382577F8D7B632BDF53		ACE v1.4e Client x64 AVX2
+ACEV14E_C.SO			2233812			6643930329A1A8053C96A7213BAF4FA5		ACE v1.4e Client Linux x86
+ACEV14E_C.SO			2250680			9E6D3850AB737801BC7430178C626E1C		ACE v1.4e Client Linux amd64
+ACEV14E_C.SO			555464			3E0874815F0D772871C2B20B6CD085CD		ACE v1.4e Client Linux arm64
+ACEV14E_C.U				27615			7C30D71C6EE772022E96E1C1E7891040		ACE v1.4e Client Package
+ACEV14E_CDLL.U			4880696			69E8B4E40BE54CF23F99B8F0BE35A89B		ACE v1.4e DLL Container
 ACTORRESETTER.U			19688			FBC164B33E1541EAAABC96C241085116		TO 3.40
 ALAUDIO.DLL				139264			9A6A9C86793639619852DAC1A34427E0		OldUnreal MediaPatch v0.1
 ALAUDIO.DLL				139264			779E98199A765B6FD6F3B3C66FF86576		OldUnreal MediaPatch v0.2
@@ -1832,4 +1842,4 @@ XOPENGLDRV.DLL			678400			42b3940edd2571c4e9db9fb376b6b8ba		UT v469f - RC1 - Win
 ##################################################################################################################################
 # Signature                                                                                                                      #
 ##################################################################################################################################
-MCwCFDa6qebkYO8VRiNf+Fxw2pZSHng+AhREyBUz0mKqLUl+QSIWy7TIgVihOA==
+MCwCFBShgxm/4ESJDOq8LP9XR7qmonkqAhQAyrYugfofZ+o+t/N1ft+Aa2HCsA==
