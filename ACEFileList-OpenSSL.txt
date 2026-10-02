@@ -16,7 +16,7 @@
 # > Anything behind a '#' char is ignored                                                          #
 #                                                                                                  #
 ####################################################################################################
-ACE_20261002_B
+ACE_20261002_C
 
 ##################################################################################################################################
 # Filename              Size            MD5 Hash                                Identifier                              Hacked?  #
@@ -248,15 +248,15 @@ ACEV14F_C.SO			2238232			570311CC11B6D47B1F570C3E4F1C4446		ACE v1.4f Client Linu
 ACEV14F_C.SO			2251008			40F67C770926A988EBD69E12EFA737AC		ACE v1.4f Client Linux amd64
 ACEV14F_C.SO			555664			E6CDD910B640C1EE55E440393D3D80F5		ACE v1.4f Client Linux arm64
 ACEV14F_C.U				27615			F84CF542EC2C8626BBA875B1954CD255		ACE v1.4f Client Package
-ACEV14F_C.DLL			957440			677DB250EE0A2C25CDC443C53701F247		ACE v1.4f Client x86 Legacy
-ACEV14F_C.DLL			951808			DC5E78A7845E7FEACCBAA633BA0230D3		ACE v1.4f Client x86 SSE2
-ACEV14F_C.DLL			951808			1D635DEADE26F79385A88AAD64F0C83C		ACE v1.4f Client x86 AVX2
-ACEV14F_C.DLL			1167872			3A7189D13943C3420DBC930AAB5BEAE2		ACE v1.4f Client x64 SSE2
-ACEV14F_C.DLL			1167360			E2016E2AA023A96AC0D4D0801737A4DC		ACE v1.4f Client x64 AVX2
-ACEV14F_C.SO			2406220			3947C9C53E7728FF3098E5DBC812F699		ACE v1.4f Client Linux x86
-ACEV14F_C.SO			2423360			749ECCAA15E8D908491378A21FA99339		ACE v1.4f Client Linux amd64
-ACEV14F_C.SO			713472			EAB9B2BAA81B65F2218C746ACCFBD013		ACE v1.4f Client Linux arm64
-ACEV14F_C.U				27615			0F0385D33CC07EFC72400C9A7DF084A4		ACE v1.4f Client Package
+ACEV14F_C.DLL			957440			677DB250EE0A2C25CDC443C53701F247		ACE v1.4f Client x86 Legacy v2
+ACEV14F_C.DLL			951808			DC5E78A7845E7FEACCBAA633BA0230D3		ACE v1.4f Client x86 SSE2 v2
+ACEV14F_C.DLL			951808			1D635DEADE26F79385A88AAD64F0C83C		ACE v1.4f Client x86 AVX2 v2
+ACEV14F_C.DLL			1167872			3A7189D13943C3420DBC930AAB5BEAE2		ACE v1.4f Client x64 SSE2 v2
+ACEV14F_C.DLL			1167360			E2016E2AA023A96AC0D4D0801737A4DC		ACE v1.4f Client x64 AVX2 v2
+ACEV14F_C.SO			2406220			3947C9C53E7728FF3098E5DBC812F699		ACE v1.4f Client Linux x86 v2
+ACEV14F_C.SO			2423360			749ECCAA15E8D908491378A21FA99339		ACE v1.4f Client Linux amd64 v2
+ACEV14F_C.SO			713472			EAB9B2BAA81B65F2218C746ACCFBD013		ACE v1.4f Client Linux arm64 v2
+ACEV14F_C.U				27615			0F0385D33CC07EFC72400C9A7DF084A4		ACE v1.4f Client Package v2
 ACEV14F_CDLL.U			4898616			9D37DD01C0666ED705951F90F76D14D9		ACE v1.4f DLL Container
 ACEV14F_CDLL.U			5197624			CA0481F52580F5FA3DCA06823B1E39C9		ACE v1.4f DLL Container
 ACTORRESETTER.U			19688			FBC164B33E1541EAAABC96C241085116		TO 3.40
@@ -2170,4 +2170,4 @@ XOPENGLDRV.DLL			793976			b1928078e97e41581e5c5a909eebf948		UT v469f - RC5
 ##################################################################################################################################
 # Signature                                                                                                                      #
 ##################################################################################################################################
-MD4CHQCn7OLB72sI1jRV3j1Uc+ZZYkw/JKgg+mw0aj1rAh0AlvlnrTfGtbBT3YX8KlQI6k12MzW9ddhxb+Dffg==
+MDwCHD8eWPNonLdcA4GsaUG9p7Ra6o9AA6zXtWWT/+cCHH4yyfvo0IeIPWG0W4EMbfoY8bCXQW2RPoOEVvo=
